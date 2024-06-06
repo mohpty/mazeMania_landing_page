@@ -21,7 +21,7 @@ To get started with the Maze Game, follow these steps:
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd maze-game
+   cd mazegame
    ```
    
 ## How to Play
