@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+}
+header.masthead{
+    background-image:url('/assets/img/maze.jpg');
+    background-size:contain;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header_content{
+    position: relative;
+    z-index: 1; /* Ensures content is above the overlay */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.demoBtn{
+    text-decoration: none;
+    color:whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 10px 20px;
+    margin-top:10px;
+    font-size:25px;
+    font-weight:700;
+    transition:all 250ms;
+}
+
+.demoBtn:hover{
+    background-color:whitesmoke;
+    color:#494949;
+    transition:all 250ms;
+}
+
+.feature{
+    border:3px solid #3b3b3b58;
+    height:220px;
+    margin:5px;
+    color:#3b3b3b;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.433);
+}
+
+.feature .row{
+    height:100%;
+    /* background-image:url('/assets/img/fun.jpg'); */
+}
+
+.contents{
+    background-color:rgba(0, 0, 0, 0.542);
+    color:whitesmoke;
+
+    height:100%;
+    width:100%;
+}
+
+.feature .h3{
+    margin-top:20px
+}
+
+#mobileFeature{
+    /* background-image: url('/assets/img/mobile.jpg'); */
+    background-size:cover;
+}
+
+.github a{
+    text-decoration:none;
+    font-size:25px;
+    border:3px solid #3b3b3b;
+    padding:10px 15px;
+    font-weight:700;
+    transition:all 250ms;
+}
+.github a:hover{
+    background-color:whitesmoke;
+    color:#3b3b3b;
+    border:3px solid #3b3b3b;
+    transition:all 250ms;
+}
